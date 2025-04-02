@@ -1,6 +1,7 @@
 # Faz a importância da biblioteca matplotlib e adiciona um alias (apelido)
 # Usar a  linha de comando: python3 -m pip install matplotlib
 import matplotlib.pyplot as plt
+
 def exibirGrafico():
     # Definição dos grupos e valores
     grupos = ['A', 'B', 'C']
