@@ -5,7 +5,7 @@ import numpy as np
 np.random.seed (42)
 
 dados = pd.DataFrame({
-    "Orçamento_Campanha": np.random.randint(2000, 5000, size=100),
+    "Orcamento_Campanha": np.random.randint(2000, 5000, size=100),
     "Visualizacoes_Anuncio": np.random.randint(2000, 200000, size=100),
     "Vendas": np.random.randint(10, 5000, size=100),
     "Cliques": np.random.randint(100, 200000, size=100)
